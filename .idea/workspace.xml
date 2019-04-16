@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fc1c793-8177-4ee3-934b-ce415f766f0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch2/constant_test/constant_try_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch2/test/first_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch3/type_test/type_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch4/operator_test/operator_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch5/condition/condition_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch5/loop/loop_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch6/array_test/array_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch6/slice_test/slice_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch10/func/func_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11/customer_type/customer_type_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11/interface/interface_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch12/extension/extension_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch13/empty_interface/empty_interface_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch7/map/map_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch8/map/map_ext_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch9/string/string_fun_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch9/string/string_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,20 +21,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch6/array_test/array_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ch6/slice_test/slice_test.go">
+        <entry file="file://$PROJECT_DIR$/src/ch13/empty_interface/empty_interface_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+            <state relative-caret-position="242">
+              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+              <folding>
+                <element signature="e#25#53#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,6 +42,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>testFn</find>
+    </findStrings>
+  </component>
   <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,6 +59,16 @@
         <option value="$PROJECT_DIR$/src/ch5/condition/condition_test.go" />
         <option value="$PROJECT_DIR$/src/ch6/array_test/array_test.go" />
         <option value="$PROJECT_DIR$/src/ch6/slice_test/slice_test.go" />
+        <option value="$PROJECT_DIR$/src/ch7/map/map_test.go" />
+        <option value="$PROJECT_DIR$/src/ch8/map/map_ext.go" />
+        <option value="$PROJECT_DIR$/src/ch8/map/map_ext_test.go" />
+        <option value="$PROJECT_DIR$/src/ch9/string/string_test.go" />
+        <option value="$PROJECT_DIR$/src/ch9/string/string_fun_test.go" />
+        <option value="$PROJECT_DIR$/src/ch10/func/func_test.go" />
+        <option value="$PROJECT_DIR$/src/ch11/interface/interface_test.go" />
+        <option value="$PROJECT_DIR$/src/ch11/customer_type/customer_type_test.go" />
+        <option value="$PROJECT_DIR$/src/ch12/extension/extension_test.go" />
+        <option value="$PROJECT_DIR$/src/ch13/empty_interface/empty_interface_test.go" />
       </list>
     </option>
   </component>
@@ -91,14 +102,14 @@
               <item name="go_learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="go_learning" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch6" type="462c0819:PsiDirectoryNode" />
+              <item name="ch13" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="go_learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="go_learning" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch6" type="462c0819:PsiDirectoryNode" />
-              <item name="slice_test" type="462c0819:PsiDirectoryNode" />
+              <item name="ch13" type="462c0819:PsiDirectoryNode" />
+              <item name="empty_interface" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -109,6 +120,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
@@ -131,97 +143,97 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestSliceShareMemory in slice_test.go">
-    <configuration name="TestArrayInit in array_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestEmptyInterfaceAssertion in empty_interface_test.go">
+    <configuration name="TestClient in interface_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/src/ch6/array_test" />
+      <working_directory value="$PROJECT_DIR$/src/ch11/interface" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/src/ch6/array_test/array_test.go" />
-      <pattern value="^TestArrayInit$" />
+      <filePath value="$PROJECT_DIR$/src/ch11/interface/interface_test.go" />
+      <pattern value="^TestClient$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestIfMultiSec in condition_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDefer in func_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/src/ch5/condition" />
+      <working_directory value="$PROJECT_DIR$/src/ch10/func" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/src/ch5/condition/condition_test.go" />
-      <pattern value="^TestIfMultiSec$" />
+      <filePath value="$PROJECT_DIR$/src/ch10/func/func_test.go" />
+      <pattern value="^TestDefer$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSliceInit in slice_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDog in extension_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/src/ch6/slice_test" />
+      <working_directory value="$PROJECT_DIR$/src/ch12/extension" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/src/ch6/slice_test/slice_test.go" />
-      <pattern value="^TestSliceInit$" />
+      <filePath value="$PROJECT_DIR$/src/ch12/extension/extension_test.go" />
+      <pattern value="^TestDog$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSliceShareMemory in slice_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestEmptyInterfaceAssertion in empty_interface_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/src/ch6/slice_test" />
+      <working_directory value="$PROJECT_DIR$/src/ch13/empty_interface" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/src/ch6/slice_test/slice_test.go" />
-      <pattern value="^TestSliceShareMemory$" />
+      <filePath value="$PROJECT_DIR$/src/ch13/empty_interface/empty_interface_test.go" />
+      <pattern value="^TestEmptyInterfaceAssertion$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSwitchCaseCondition in condition_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestFn in customer_type_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/src/ch5/condition" />
+      <working_directory value="$PROJECT_DIR$/src/ch11/customer_type" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/src/ch5/condition/condition_test.go" />
-      <pattern value="^TestSwitchCaseCondition$" />
+      <filePath value="$PROJECT_DIR$/src/ch11/customer_type/customer_type_test.go" />
+      <pattern value="^TestFn$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestSliceShareMemory in slice_test.go" />
-        <item itemvalue="Go Test.TestSliceInit in slice_test.go" />
-        <item itemvalue="Go Test.TestArrayInit in array_test.go" />
-        <item itemvalue="Go Test.TestSwitchCaseCondition in condition_test.go" />
-        <item itemvalue="Go Test.TestIfMultiSec in condition_test.go" />
+        <item itemvalue="Go Test.TestEmptyInterfaceAssertion in empty_interface_test.go" />
+        <item itemvalue="Go Test.TestDog in extension_test.go" />
+        <item itemvalue="Go Test.TestFn in customer_type_test.go" />
+        <item itemvalue="Go Test.TestClient in interface_test.go" />
+        <item itemvalue="Go Test.TestDefer in func_test.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestArrayInit_in_array_test_go - 2019.04.13 at 23h 08m 06s.xml">
-      <configuration name="TestArrayInit in array_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestDefer_in_func_test_go - 2019.04.14 at 18h 31m 37s.xml">
+      <configuration name="TestDefer in func_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestArrayInit_in_array_test_go - 2019.04.13 at 23h 12m 37s.xml">
-      <configuration name="TestArrayInit in array_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestClient_in_interface_test_go - 2019.04.15 at 07h 04m 39s.xml">
+      <configuration name="TestClient in interface_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestArrayInit_in_array_test_go - 2019.04.13 at 23h 12m 52s.xml">
-      <configuration name="TestArrayInit in array_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestClient_in_interface_test_go - 2019.04.15 at 07h 17m 23s.xml">
+      <configuration name="TestClient in interface_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSliceInit_in_slice_test_go - 2019.04.13 at 23h 15m 47s.xml">
-      <configuration name="TestSliceInit in slice_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestFn_in_customer_type_test_go - 2019.04.15 at 07h 17m 36s.xml">
+      <configuration name="TestFn in customer_type_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSliceInit_in_slice_test_go - 2019.04.13 at 23h 16m 48s.xml">
-      <configuration name="TestSliceInit in slice_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestDog_in_extension_test_go - 2019.04.16 at 07h 24m 29s.xml">
+      <configuration name="TestDog in extension_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSliceInit_in_slice_test_go - 2019.04.13 at 23h 17m 49s.xml">
-      <configuration name="TestSliceInit in slice_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestDog_in_extension_test_go - 2019.04.16 at 07h 27m 09s.xml">
+      <configuration name="TestDog in extension_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSliceInit_in_slice_test_go - 2019.04.13 at 23h 19m 17s.xml">
-      <configuration name="TestSliceInit in slice_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestDog_in_extension_test_go - 2019.04.16 at 07h 27m 44s.xml">
+      <configuration name="TestDog in extension_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSliceInit_in_slice_test_go - 2019.04.13 at 23h 24m 20s.xml">
-      <configuration name="TestSliceInit in slice_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestEmptyInterfaceAssertion_in_empty_interface_test_go - 2019.04.16 at 23h 21m 13s.xml">
+      <configuration name="TestEmptyInterfaceAssertion in empty_interface_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSliceShareMemory_in_slice_test_go - 2019.04.13 at 23h 31m 24s.xml">
-      <configuration name="TestSliceShareMemory in slice_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestEmptyInterfaceAssertion_in_empty_interface_test_go - 2019.04.16 at 23h 21m 28s.xml">
+      <configuration name="TestEmptyInterfaceAssertion in empty_interface_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSliceShareMemory_in_slice_test_go - 2019.04.13 at 23h 32m 49s.xml">
-      <configuration name="TestSliceShareMemory in slice_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestEmptyInterfaceAssertion_in_empty_interface_test_go - 2019.04.16 at 23h 23m 57s.xml">
+      <configuration name="TestEmptyInterfaceAssertion in empty_interface_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -241,7 +253,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32997987" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32997987" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -274,17 +286,92 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch6/slice_test/slice_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ch6/array_test/array_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
+        <state relative-caret-position="572">
           <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch6/slice_test/slice_test.go">
+    <entry file="file://$PROJECT_DIR$/src/ch7/map/map_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+        <state relative-caret-position="294">
+          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch8/map/map_ext_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch9/string/string_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch9/string/string_fun_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="e#21#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch10/func/func_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch11/interface/interface_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch11/customer_type/customer_type_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+          <folding>
+            <element signature="e#23#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch12/extension/extension_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+          <folding>
+            <element signature="e#19#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch13/empty_interface/empty_interface_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding>
+            <element signature="e#25#53#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
