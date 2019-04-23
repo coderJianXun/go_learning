@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fc1c793-8177-4ee3-934b-ce415f766f0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch10/func/func_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11/customer_type/customer_type_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11/interface/interface_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch12/extension/extension_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch13/empty_interface/empty_interface_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch7/map/map_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch8/map/map_ext_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch9/string/string_fun_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch9/string/string_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch14/error/err_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch15/client/package_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch15/remote_package/remote_package_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch15/series/my_series.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch16/groutine/groutine_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch17/share_mem/share_mem_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch18/csp/async_service_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch19/select/select_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch20/channel_close/channel_close_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,20 +20,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ch13/empty_interface/empty_interface_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-              <folding>
-                <element signature="e#25#53#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,6 +37,14 @@
   <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$" />
+      </list>
+    </option>
+    <option name="useGoPathFromSystemEnvironment" value="false" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -69,6 +64,16 @@
         <option value="$PROJECT_DIR$/src/ch11/customer_type/customer_type_test.go" />
         <option value="$PROJECT_DIR$/src/ch12/extension/extension_test.go" />
         <option value="$PROJECT_DIR$/src/ch13/empty_interface/empty_interface_test.go" />
+        <option value="$PROJECT_DIR$/src/ch14/error/err_test.go" />
+        <option value="$PROJECT_DIR$/src/ch15/client/package_test.go" />
+        <option value="$PROJECT_DIR$/src/ch15/series/my_series.go" />
+        <option value="$PROJECT_DIR$/src/ch15/remote_package/remote_package_test.go" />
+        <option value="$PROJECT_DIR$/src/ch16/groutine/groutine_test.go" />
+        <option value="$PROJECT_DIR$/src/ch17/share_mem/share_mem_test.go" />
+        <option value="$PROJECT_DIR$/src/ch18/csp/async_service_test.go" />
+        <option value="$PROJECT_DIR$/src/ch19/select/select_test.go" />
+        <option value="$PROJECT_DIR$/src/ch20/channel_close_test/channel_close_test.go" />
+        <option value="$PROJECT_DIR$/src/ch20/channel_close/channel_close_test.go" />
       </list>
     </option>
   </component>
@@ -102,14 +107,18 @@
               <item name="go_learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="go_learning" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch13" type="462c0819:PsiDirectoryNode" />
+              <item name="ch20" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="go_learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="go_learning" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch13" type="462c0819:PsiDirectoryNode" />
-              <item name="empty_interface" type="462c0819:PsiDirectoryNode" />
+              <item name="ch20" type="462c0819:PsiDirectoryNode" />
+              <item name="channel_close" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -123,13 +132,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="go.sdk" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -143,109 +153,113 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestEmptyInterfaceAssertion in empty_interface_test.go">
-    <configuration name="TestClient in interface_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestCloseChannel in ch20/channel_close">
+    <configuration name="TestAsyncService in ch18/csp" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/src/ch11/interface" />
+      <working_directory value="$PROJECT_DIR$/src/ch18/csp" />
       <framework value="gotest" />
-      <kind value="FILE" />
+      <kind value="PACKAGE" />
+      <package value="ch18/csp" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/src/ch11/interface/interface_test.go" />
-      <pattern value="^TestClient$" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestAsyncService$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestDefer in func_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCloseChannel in ch20/channel_close" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/src/ch10/func" />
+      <working_directory value="$PROJECT_DIR$/src/ch20/channel_close" />
       <framework value="gotest" />
-      <kind value="FILE" />
+      <kind value="PACKAGE" />
+      <package value="ch20/channel_close" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/src/ch10/func/func_test.go" />
-      <pattern value="^TestDefer$" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestCloseChannel$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestDog in extension_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCounterWaitGroup in ch17/share_mem" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/src/ch12/extension" />
+      <working_directory value="$PROJECT_DIR$/src/ch17/share_mem" />
       <framework value="gotest" />
-      <kind value="FILE" />
+      <kind value="PACKAGE" />
+      <package value="ch17/share_mem" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/src/ch12/extension/extension_test.go" />
-      <pattern value="^TestDog$" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestCounterWaitGroup$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestEmptyInterfaceAssertion in empty_interface_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSelect in ch19/select" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/src/ch13/empty_interface" />
+      <working_directory value="$PROJECT_DIR$/src/ch19/select" />
       <framework value="gotest" />
-      <kind value="FILE" />
+      <kind value="PACKAGE" />
+      <package value="ch19/select" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/src/ch13/empty_interface/empty_interface_test.go" />
-      <pattern value="^TestEmptyInterfaceAssertion$" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestSelect$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestFn in customer_type_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestService in ch18/csp" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/src/ch11/customer_type" />
+      <working_directory value="$PROJECT_DIR$/src/ch18/csp" />
       <framework value="gotest" />
-      <kind value="FILE" />
+      <kind value="PACKAGE" />
+      <package value="ch18/csp" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/src/ch11/customer_type/customer_type_test.go" />
-      <pattern value="^TestFn$" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestService$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestEmptyInterfaceAssertion in empty_interface_test.go" />
-        <item itemvalue="Go Test.TestDog in extension_test.go" />
-        <item itemvalue="Go Test.TestFn in customer_type_test.go" />
-        <item itemvalue="Go Test.TestClient in interface_test.go" />
-        <item itemvalue="Go Test.TestDefer in func_test.go" />
+        <item itemvalue="Go Test.TestCloseChannel in ch20/channel_close" />
+        <item itemvalue="Go Test.TestSelect in ch19/select" />
+        <item itemvalue="Go Test.TestAsyncService in ch18/csp" />
+        <item itemvalue="Go Test.TestService in ch18/csp" />
+        <item itemvalue="Go Test.TestCounterWaitGroup in ch17/share_mem" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestDefer_in_func_test_go - 2019.04.14 at 18h 31m 37s.xml">
-      <configuration name="TestDefer in func_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestCounterWaitGroup_in_ch17_share_mem - 2019.04.22 at 06h 13m 13s.xml">
+      <configuration name="TestCounterWaitGroup in ch17/share_mem" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestClient_in_interface_test_go - 2019.04.15 at 07h 04m 39s.xml">
-      <configuration name="TestClient in interface_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestService_in_ch18_csp - 2019.04.22 at 06h 24m 08s.xml">
+      <configuration name="TestService in ch18/csp" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestClient_in_interface_test_go - 2019.04.15 at 07h 17m 23s.xml">
-      <configuration name="TestClient in interface_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestAsyncService_in_ch18_csp - 2019.04.22 at 06h 29m 23s.xml">
+      <configuration name="TestAsyncService in ch18/csp" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestFn_in_customer_type_test_go - 2019.04.15 at 07h 17m 36s.xml">
-      <configuration name="TestFn in customer_type_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestAsyncService_in_ch18_csp - 2019.04.22 at 06h 33m 29s.xml">
+      <configuration name="TestAsyncService in ch18/csp" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestDog_in_extension_test_go - 2019.04.16 at 07h 24m 29s.xml">
-      <configuration name="TestDog in extension_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSelect_in_ch19_select - 2019.04.22 at 07h 34m 52s.xml">
+      <configuration name="TestSelect in ch19/select" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestDog_in_extension_test_go - 2019.04.16 at 07h 27m 09s.xml">
-      <configuration name="TestDog in extension_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSelect_in_ch19_select - 2019.04.22 at 07h 36m 53s.xml">
+      <configuration name="TestSelect in ch19/select" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestDog_in_extension_test_go - 2019.04.16 at 07h 27m 44s.xml">
-      <configuration name="TestDog in extension_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSelect_in_ch19_select - 2019.04.22 at 07h 37m 05s.xml">
+      <configuration name="TestSelect in ch19/select" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestEmptyInterfaceAssertion_in_empty_interface_test_go - 2019.04.16 at 23h 21m 13s.xml">
-      <configuration name="TestEmptyInterfaceAssertion in empty_interface_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestCloseChannel_in_ch20_channel_close - 2019.04.22 at 07h 48m 05s.xml">
+      <configuration name="TestCloseChannel in ch20/channel_close" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestEmptyInterfaceAssertion_in_empty_interface_test_go - 2019.04.16 at 23h 21m 28s.xml">
-      <configuration name="TestEmptyInterfaceAssertion in empty_interface_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestCloseChannel_in_ch20_channel_close - 2019.04.22 at 07h 48m 28s.xml">
+      <configuration name="TestCloseChannel in ch20/channel_close" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestEmptyInterfaceAssertion_in_empty_interface_test_go - 2019.04.16 at 23h 23m 57s.xml">
-      <configuration name="TestEmptyInterfaceAssertion in empty_interface_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestCloseChannel_in_ch20_channel_close - 2019.04.22 at 07h 53m 21s.xml">
+      <configuration name="TestCloseChannel in ch20/channel_close" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-42" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17891374" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18051118" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32997987" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32997987" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -367,10 +381,105 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch13/empty_interface/empty_interface_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
+        <state relative-caret-position="570">
           <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
           <folding>
             <element signature="e#25#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch14/error/err_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="e#20#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch15/client/package_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch15/series/my_series.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../go/src/github.com/easierway/concurrent_map/string_key.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1976">
+          <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../go/src/github.com/easierway/concurrent_map/concurrent_map.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch15/remote_package/remote_package_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch16/groutine/groutine_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="e#23#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch17/share_mem/share_mem_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+          <folding>
+            <element signature="e#19#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch18/csp/async_service_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="25" column="27" selection-end-line="40" />
+          <folding>
+            <element signature="e#18#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch19/select/select_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="22" column="1" lean-forward="true" selection-end-line="32" />
+          <folding>
+            <element signature="e#21#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch20/channel_close/channel_close_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <folding>
+            <element signature="e#21#57#0" expanded="true" />
           </folding>
         </state>
       </provider>
