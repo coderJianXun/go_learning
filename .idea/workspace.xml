@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fc1c793-8177-4ee3-934b-ce415f766f0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch20_1/cancel_by_close/cancel_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch20_2/cancel_by_context/cancel_by_context_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch21/singlelon/once_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch22/util_anyone_reply/first_response_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch23/util_anyone_done/first_response_done_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch32/obj_pool/obj_pool.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch32/obj_pool/obj_pool_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch33/obj_cache/sync_pool_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch34/unit_test/function.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch34/unit_test/function_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch35/benchmark/concat_string_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch36/bdd/bdd_spec_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,20 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ch33/obj_cache/sync_pool_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-              <folding>
-                <element signature="e#24#53#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -96,6 +79,10 @@
         <option value="$PROJECT_DIR$/src/ch32/obj_pool/obj_pool.go" />
         <option value="$PROJECT_DIR$/src/ch32/obj_pool/obj_pool_test.go" />
         <option value="$PROJECT_DIR$/src/ch33/obj_cache/sync_pool_test.go" />
+        <option value="$PROJECT_DIR$/src/ch34/unit_test/function.go" />
+        <option value="$PROJECT_DIR$/src/ch34/unit_test/function_test.go" />
+        <option value="$PROJECT_DIR$/src/ch35/benchmark/concat_string_test.go" />
+        <option value="$PROJECT_DIR$/src/ch36/bdd/bdd_spec_test.go" />
       </list>
     </option>
   </component>
@@ -124,19 +111,6 @@
               <item name="go_learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="go_learning" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="go_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch33" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="go_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch33" type="462c0819:PsiDirectoryNode" />
-              <item name="obj_cache" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="go_learning" type="b2602c69:ProjectViewProjectNode" />
@@ -180,114 +154,113 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestSyncPoolInMultiGroutine in ch33/obj_cache">
-    <configuration name="TestFirstResponse in ch22/util_anyone_reply" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestSpec in ch36/bdd">
+    <configuration name="TestErrorInCode in ch34/unit_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/src/ch22/util_anyone_reply" />
+      <working_directory value="$PROJECT_DIR$/src/ch34/unit_test" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="ch22/util_anyone_reply" />
+      <package value="ch34/unit_test" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestFirstResponse$" />
+      <pattern value="^TestErrorInCode$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestFirstResponse in ch23/util_anyone_done" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestFatalInCode in ch34/unit_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/src/ch23/util_anyone_done" />
+      <working_directory value="$PROJECT_DIR$/src/ch34/unit_test" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="ch23/util_anyone_done" />
+      <package value="ch34/unit_test" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestFirstResponse$" />
+      <pattern value="^TestFatalInCode$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestObjPool in ch32/obj_pool" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSpec in ch36/bdd" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/src/ch32/obj_pool" />
+      <working_directory value="$PROJECT_DIR$/src/ch36/bdd" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="ch32/obj_pool" />
+      <package value="ch36/bdd" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestObjPool$" />
+      <pattern value="^TestSpec$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSyncPool in ch33/obj_cache" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSquare in ch34/unit_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/src/ch33/obj_cache" />
+      <working_directory value="$PROJECT_DIR$/src/ch34/unit_test" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="ch33/obj_cache" />
+      <package value="ch34/unit_test" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestSyncPool$" />
+      <pattern value="^TestSquare$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSyncPoolInMultiGroutine in ch33/obj_cache" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSquareWithAssert in ch34/unit_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/src/ch33/obj_cache" />
+      <working_directory value="$PROJECT_DIR$/src/ch34/unit_test" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="ch33/obj_cache" />
+      <package value="ch34/unit_test" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestSyncPoolInMultiGroutine$" />
+      <pattern value="^TestSquareWithAssert$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestSyncPoolInMultiGroutine in ch33/obj_cache" />
-        <item itemvalue="Go Test.TestSyncPool in ch33/obj_cache" />
-        <item itemvalue="Go Test.TestObjPool in ch32/obj_pool" />
-        <item itemvalue="Go Test.TestFirstResponse in ch23/util_anyone_done" />
-        <item itemvalue="Go Test.TestFirstResponse in ch22/util_anyone_reply" />
+        <item itemvalue="Go Test.TestSpec in ch36/bdd" />
+        <item itemvalue="Go Test.TestSquareWithAssert in ch34/unit_test" />
+        <item itemvalue="Go Test.TestFatalInCode in ch34/unit_test" />
+        <item itemvalue="Go Test.TestErrorInCode in ch34/unit_test" />
+        <item itemvalue="Go Test.TestSquare in ch34/unit_test" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestFirstResponse_in_ch22_util_anyone_reply - 2019.04.25 at 06h 51m 26s.xml">
-      <configuration name="TestFirstResponse in ch22/util_anyone_reply" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestFirstResponse_in_ch22_util_anyone_reply - 2019.04.25 at 06h 55m 40s.xml">
-      <configuration name="TestFirstResponse in ch22/util_anyone_reply" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestFirstResponse_in_ch22_util_anyone_reply - 2019.04.25 at 06h 55m 44s.xml">
-      <configuration name="TestFirstResponse in ch22/util_anyone_reply" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestFirstResponse_in_ch22_util_anyone_reply - 2019.04.25 at 06h 55m 58s.xml">
-      <configuration name="TestFirstResponse in ch22/util_anyone_reply" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestFirstResponse_in_ch23_util_anyone_done - 2019.04.25 at 07h 04m 50s.xml">
-      <configuration name="TestFirstResponse in ch23/util_anyone_done" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestObjPool_in_ch32_obj_pool - 2019.04.25 at 07h 27m 01s.xml">
-      <configuration name="TestObjPool in ch32/obj_pool" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestObjPool_in_ch32_obj_pool - 2019.04.25 at 07h 27m 20s.xml">
-      <configuration name="TestObjPool in ch32/obj_pool" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestObjPool_in_ch32_obj_pool - 2019.04.25 at 07h 27m 32s.xml">
-      <configuration name="TestObjPool in ch32/obj_pool" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSyncPool_in_ch33_obj_cache - 2019.04.26 at 07h 36m 37s.xml">
-      <configuration name="TestSyncPool in ch33/obj_cache" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestSyncPool_in_ch33_obj_cache - 2019.04.26 at 07h 37m 23s.xml">
       <configuration name="TestSyncPool in ch33/obj_cache" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSyncPool_in_ch33_obj_cache - 2019.04.26 at 07h 47m 08s.xml">
+      <configuration name="TestSyncPool in ch33/obj_cache" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSyncPoolInMultiGroutine_in_ch33_obj_cache - 2019.04.26 at 07h 47m 11s.xml">
+      <configuration name="TestSyncPoolInMultiGroutine in ch33/obj_cache" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSquare_in_ch34_unit_test - 2019.04.27 at 16h 24m 37s.xml">
+      <configuration name="TestSquare in ch34/unit_test" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSquare_in_ch34_unit_test - 2019.04.27 at 16h 25m 00s.xml">
+      <configuration name="TestSquare in ch34/unit_test" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSquare_in_ch34_unit_test - 2019.04.27 at 16h 25m 19s.xml">
+      <configuration name="TestSquare in ch34/unit_test" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestErrorInCode_in_ch34_unit_test - 2019.04.27 at 16h 29m 40s.xml">
+      <configuration name="TestErrorInCode in ch34/unit_test" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestFatalInCode_in_ch34_unit_test - 2019.04.27 at 16h 29m 47s.xml">
+      <configuration name="TestFatalInCode in ch34/unit_test" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSquareWithAssert_in_ch34_unit_test - 2019.04.27 at 16h 38m 01s.xml">
+      <configuration name="TestSquareWithAssert in ch34/unit_test" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSpec_in_ch36_bdd - 2019.04.27 at 21h 03m 47s.xml">
+      <configuration name="TestSpec in ch36/bdd" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-42" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18051118" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18051118" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32997987" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32997987" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -578,10 +551,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch33/obj_cache/sync_pool_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
+        <state relative-caret-position="726">
           <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
           <folding>
             <element signature="e#24#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch34/unit_test/function_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+          <folding>
+            <element signature="e#17#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch34/unit_test/function.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch35/benchmark/concat_string_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+          <folding>
+            <element signature="e#24#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch36/bdd/bdd_spec_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#18#83#0" expanded="true" />
           </folding>
         </state>
       </provider>
