@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fc1c793-8177-4ee3-934b-ce415f766f0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch34/unit_test/function.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch34/unit_test/function_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch35/benchmark/concat_string_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch36/bdd/bdd_spec_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch37/reflect/reflect_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch38/flexble_reflect_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch39/unsafe_programming/unsafe_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,6 +82,9 @@
         <option value="$PROJECT_DIR$/src/ch34/unit_test/function_test.go" />
         <option value="$PROJECT_DIR$/src/ch35/benchmark/concat_string_test.go" />
         <option value="$PROJECT_DIR$/src/ch36/bdd/bdd_spec_test.go" />
+        <option value="$PROJECT_DIR$/src/ch37/reflect/reflect_test.go" />
+        <option value="$PROJECT_DIR$/src/ch38/flexble_reflect_test.go" />
+        <option value="$PROJECT_DIR$/src/ch39/unsafe_programming/unsafe_test.go" />
       </list>
     </option>
   </component>
@@ -154,88 +156,73 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestSpec in ch36/bdd">
-    <configuration name="TestErrorInCode in ch34/unit_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestUnsafe in ch39/unsafe_programming">
+    <configuration name="TestBasicType in ch37/reflect" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/src/ch34/unit_test" />
+      <working_directory value="$PROJECT_DIR$/src/ch37/reflect" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="ch34/unit_test" />
+      <package value="ch37/reflect" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestErrorInCode$" />
+      <pattern value="^TestBasicType$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestFatalInCode in ch34/unit_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDeepEqual in ch38" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/src/ch34/unit_test" />
+      <working_directory value="$PROJECT_DIR$/src/ch38" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="ch34/unit_test" />
+      <package value="ch38" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestFatalInCode$" />
+      <pattern value="^TestDeepEqual$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSpec in ch36/bdd" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestInvokeByName in ch37/reflect" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/src/ch36/bdd" />
+      <working_directory value="$PROJECT_DIR$/src/ch37/reflect" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="ch36/bdd" />
+      <package value="ch37/reflect" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestSpec$" />
+      <pattern value="^TestInvokeByName$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSquare in ch34/unit_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestTypeAndValue in ch37/reflect" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/src/ch34/unit_test" />
+      <working_directory value="$PROJECT_DIR$/src/ch37/reflect" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="ch34/unit_test" />
+      <package value="ch37/reflect" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestSquare$" />
+      <pattern value="^TestTypeAndValue$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSquareWithAssert in ch34/unit_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestUnsafe in ch39/unsafe_programming" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/src/ch34/unit_test" />
+      <working_directory value="$PROJECT_DIR$/src/ch39/unsafe_programming" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="ch34/unit_test" />
+      <package value="ch39/unsafe_programming" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestSquareWithAssert$" />
+      <pattern value="^TestUnsafe$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestSpec in ch36/bdd" />
-        <item itemvalue="Go Test.TestSquareWithAssert in ch34/unit_test" />
-        <item itemvalue="Go Test.TestFatalInCode in ch34/unit_test" />
-        <item itemvalue="Go Test.TestErrorInCode in ch34/unit_test" />
-        <item itemvalue="Go Test.TestSquare in ch34/unit_test" />
+        <item itemvalue="Go Test.TestUnsafe in ch39/unsafe_programming" />
+        <item itemvalue="Go Test.TestDeepEqual in ch38" />
+        <item itemvalue="Go Test.TestInvokeByName in ch37/reflect" />
+        <item itemvalue="Go Test.TestTypeAndValue in ch37/reflect" />
+        <item itemvalue="Go Test.TestBasicType in ch37/reflect" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSyncPool_in_ch33_obj_cache - 2019.04.26 at 07h 37m 23s.xml">
-      <configuration name="TestSyncPool in ch33/obj_cache" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSyncPool_in_ch33_obj_cache - 2019.04.26 at 07h 47m 08s.xml">
-      <configuration name="TestSyncPool in ch33/obj_cache" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSyncPoolInMultiGroutine_in_ch33_obj_cache - 2019.04.26 at 07h 47m 11s.xml">
-      <configuration name="TestSyncPoolInMultiGroutine in ch33/obj_cache" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSquare_in_ch34_unit_test - 2019.04.27 at 16h 24m 37s.xml">
-      <configuration name="TestSquare in ch34/unit_test" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSquare_in_ch34_unit_test - 2019.04.27 at 16h 25m 00s.xml">
-      <configuration name="TestSquare in ch34/unit_test" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestSquare_in_ch34_unit_test - 2019.04.27 at 16h 25m 19s.xml">
       <configuration name="TestSquare in ch34/unit_test" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -250,6 +237,21 @@
     </history-entry>
     <history-entry file="TestSpec_in_ch36_bdd - 2019.04.27 at 21h 03m 47s.xml">
       <configuration name="TestSpec in ch36/bdd" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestBasicType_in_ch37_reflect - 2019.04.27 at 22h 26m 25s.xml">
+      <configuration name="TestBasicType in ch37/reflect" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestTypeAndValue_in_ch37_reflect - 2019.04.27 at 22h 27m 51s.xml">
+      <configuration name="TestTypeAndValue in ch37/reflect" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestInvokeByName_in_ch37_reflect - 2019.04.27 at 22h 41m 22s.xml">
+      <configuration name="TestInvokeByName in ch37/reflect" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestDeepEqual_in_ch38 - 2019.04.28 at 06h 38m 30s.xml">
+      <configuration name="TestDeepEqual in ch38" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestUnsafe_in_ch39_unsafe_programming - 2019.04.28 at 06h 48m 49s.xml">
+      <configuration name="TestUnsafe in ch39/unsafe_programming" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -592,6 +594,36 @@
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="e#18#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch37/reflect/reflect_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+          <folding>
+            <element signature="e#22#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch38/flexble_reflect_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="e#30#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch39/unsafe_programming/unsafe_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="e#28#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
