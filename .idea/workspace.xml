@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fc1c793-8177-4ee3-934b-ce415f766f0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch37/reflect/reflect_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch38/flexble_reflect_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch39/unsafe_programming/unsafe_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch42/json/embedded_json_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch42/json/struct_def.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch43/json/embedded_json_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch43/json/struct_def.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch44/hello_http/hello_http.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,6 +87,10 @@
         <option value="$PROJECT_DIR$/src/ch37/reflect/reflect_test.go" />
         <option value="$PROJECT_DIR$/src/ch38/flexble_reflect_test.go" />
         <option value="$PROJECT_DIR$/src/ch39/unsafe_programming/unsafe_test.go" />
+        <option value="$PROJECT_DIR$/src/ch42/json/struct_def.go" />
+        <option value="$PROJECT_DIR$/src/ch42/json/embedded_json_test.go" />
+        <option value="$PROJECT_DIR$/src/ch43/json/embedded_json_test.go" />
+        <option value="$PROJECT_DIR$/src/ch44/hello_http/hello_http.go" />
       </list>
     </option>
   </component>
@@ -156,16 +162,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestUnsafe in ch39/unsafe_programming">
-    <configuration name="TestBasicType in ch37/reflect" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build hello_http.go">
+    <configuration name="go build hello_http.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/src/ch37/reflect" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="ch37/reflect" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/ch44/hello_http/hello_http.go" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestBasicType$" />
       <method v="2" />
     </configuration>
     <configuration name="TestDeepEqual in ch38" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -179,26 +182,26 @@
       <pattern value="^TestDeepEqual$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestInvokeByName in ch37/reflect" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestEasyJson in ch43/json" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/src/ch37/reflect" />
+      <working_directory value="$PROJECT_DIR$/src/ch43/json" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="ch37/reflect" />
+      <package value="ch43/json" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestInvokeByName$" />
+      <pattern value="^TestEasyJson$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestTypeAndValue in ch37/reflect" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestEmbeddedJson in ch42/json" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/src/ch37/reflect" />
+      <working_directory value="$PROJECT_DIR$/src/ch42/json" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="ch37/reflect" />
+      <package value="ch42/json" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestTypeAndValue$" />
+      <pattern value="^TestEmbeddedJson$" />
       <method v="2" />
     </configuration>
     <configuration name="TestUnsafe in ch39/unsafe_programming" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -214,21 +217,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build hello_http.go" />
+        <item itemvalue="Go Test.TestEasyJson in ch43/json" />
+        <item itemvalue="Go Test.TestEmbeddedJson in ch42/json" />
         <item itemvalue="Go Test.TestUnsafe in ch39/unsafe_programming" />
         <item itemvalue="Go Test.TestDeepEqual in ch38" />
-        <item itemvalue="Go Test.TestInvokeByName in ch37/reflect" />
-        <item itemvalue="Go Test.TestTypeAndValue in ch37/reflect" />
-        <item itemvalue="Go Test.TestBasicType in ch37/reflect" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSquare_in_ch34_unit_test - 2019.04.27 at 16h 25m 19s.xml">
-      <configuration name="TestSquare in ch34/unit_test" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestErrorInCode_in_ch34_unit_test - 2019.04.27 at 16h 29m 40s.xml">
-      <configuration name="TestErrorInCode in ch34/unit_test" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestFatalInCode_in_ch34_unit_test - 2019.04.27 at 16h 29m 47s.xml">
       <configuration name="TestFatalInCode in ch34/unit_test" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -253,6 +250,12 @@
     <history-entry file="TestUnsafe_in_ch39_unsafe_programming - 2019.04.28 at 06h 48m 49s.xml">
       <configuration name="TestUnsafe in ch39/unsafe_programming" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="TestEmbeddedJson_in_ch42_json - 2019.04.29 at 07h 11m 38s.xml">
+      <configuration name="TestEmbeddedJson in ch42/json" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestEasyJson_in_ch43_json - 2019.04.29 at 07h 22m 19s.xml">
+      <configuration name="TestEasyJson in ch43/json" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-42" width="1920" height="1080" extended-state="0" />
@@ -261,7 +264,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32997987" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32997987" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -624,6 +627,46 @@
           <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
           <folding>
             <element signature="e#28#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch43/json/struct_def.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch42/json/embedded_json_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+          <folding>
+            <element signature="e#17#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch42/json/struct_def.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch43/json/struct_def_easyjson.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch43/json/embedded_json_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch44/hello_http/hello_http.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding>
+            <element signature="e#14#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
